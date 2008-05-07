@@ -1,0 +1,6 @@
+category: Libs
+requires: cygwin
+external-source: libmbfl
+sdesc: "Multibyte character converter library (runtime)"
+ldesc: "This is a streamable multibyte character code filter and
+converter library."

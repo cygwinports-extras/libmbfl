@@ -1,0 +1,13 @@
+DESCRIPTION="Multibyte character filter and converter library"
+HOMEPAGE="http://php-i18n.sourceforge.jp/"
+SVN_URI="http://svn.sourceforge.jp/svnroot/php-i18n/${PN}/"
+SVN_REV=${PVP[3]}
+
+inherit svn
+
+abi=1
+PKG_NAMES="${PN} ${PN}${abi} ${PN}-devel"
+PKG_HINTS="setup lib devel"
+PKG_CONTENTS[0]="usr/share/doc/"
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"

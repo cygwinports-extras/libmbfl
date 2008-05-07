@@ -1,0 +1,83 @@
+libmbfl
+------------------------------------------
+This is a streamable multibyte character code filter and 
+converter library.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+  wget-1.10.2-2
+
+Canonical website:
+  
+
+Canonical download:
+  
+
+-------------------------------------------
+
+Build instructions:
+  unpack libmbfl-1.1.0rc3.466-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libmbfl-1.1.0rc3.466-X.cygport all
+
+This will create:
+  /usr/src/libmbfl-1.1.0rc3.466-X-src.tar.bz2
+  /usr/src/libmbfl-1.1.0rc3.466-X.tar.bz2
+  /usr/src/libmbfl-devel-1.1.0rc3.466-X.tar.bz2
+  /usr/src/libmbfl1-1.1.0rc3.466-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libmbfl)
+  /usr/share/doc/libmbfl-1.1.0rc3.466/AUTHORS
+  /usr/share/doc/libmbfl-1.1.0rc3.466/INSTALL
+  /usr/share/doc/libmbfl-1.1.0rc3.466/LICENSE
+  /usr/share/doc/libmbfl-1.1.0rc3.466/README
+
+(libmbfl1)
+  /usr/bin/cygmbfl-1.dll
+
+(libmbfl-devel)
+  /usr/include/mbfl/mbfilter.h
+  /usr/include/mbfl/mbfilter_8bit.h
+  /usr/include/mbfl/mbfilter_pass.h
+  /usr/include/mbfl/mbfilter_wchar.h
+  /usr/include/mbfl/mbfl_allocators.h
+  /usr/include/mbfl/mbfl_consts.h
+  /usr/include/mbfl/mbfl_convert.h
+  /usr/include/mbfl/mbfl_defs.h
+  /usr/include/mbfl/mbfl_encoding.h
+  /usr/include/mbfl/mbfl_filter_output.h
+  /usr/include/mbfl/mbfl_ident.h
+  /usr/include/mbfl/mbfl_language.h
+  /usr/include/mbfl/mbfl_memory_device.h
+  /usr/include/mbfl/mbfl_string.h
+  /usr/lib/libmbfl.a
+  /usr/lib/libmbfl.dll.a
+  /usr/lib/libmbfl.la
+
+------------------
+
+Port Notes:
+
+----- version 1.1.0rc3.466-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

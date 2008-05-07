@@ -1,0 +1,5 @@
+category: Libs
+requires: libmbfl1 libmbfl-devel
+sdesc: "Multibyte character converter library (meta-package)"
+ldesc: "This is a streamable multibyte character code filter and
+converter library."
